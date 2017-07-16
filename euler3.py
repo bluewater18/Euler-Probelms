@@ -4,7 +4,7 @@ import math
 def euler3(x):
     """largest prime factor of the number x"""
     if x > 10**5:
-        print('large')
+        #print('large')
         primes = findPrimes(int(math.sqrt(x)))
     else:
         primes = findPrimes(x)
@@ -29,7 +29,7 @@ def findPrimes(y):
     for a in range(y):
         A.append(True)
     for i in range(2, int(math.sqrt(y))):
-        print(i)
+        #print(i)
         if A[i] == True:
             j =[]
             count = 0
