@@ -12,7 +12,20 @@ from euler11 import euler11
 from euler12 import euler12
 from euler13 import euler13
 from euler14 import euler14
+from euler15 import euler15
+from euler16 import euler16
 
+from euler18 import euler18
+from euler19 import euler19Calender, euler19Datetime
+from euler20 import euler20
+from euler21 import euler21
+from euler22 import euler22
+from euler23 import euler23
+from euler24 import euler24
+from euler25 import euler25
+
+
+from inputs import input18
 
 
 def main():
@@ -28,7 +41,21 @@ def main():
     #print(euler10(2000000))
     #print(euler11())
     #print(euler12(500))
-    print(euler13())
+    #print(euler13())
+    #print(euler14(1000000))
+    #print(euler15(20,20))
+    #print(euler16(2,1000))
+    
+    #print(euler18(input18))
+    #print(euler19Calender(1901,2000,6))
+    #print(euler19Datetime(1901,2000,6,1))
+    #print(euler20(100))  
+    #print(euler21(10000))
+    #print(euler22('names.txt'))
+    #print(euler23())
+    #print(euler24(1000000,9))
+    #print(euler25(1000))
+    
     pass
     
     
